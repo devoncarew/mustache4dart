@@ -5,9 +5,9 @@ import 'mustache_issues.dart' as issues;
 import 'mustache_line.dart' as line_tests;
 
 main() {
-  mustache_context_tests.main();
-  mustache_tests.main();
-  specs.main();
-  issues.main();
-  line_tests.main();
+  mustache_context_tests.defineTests();
+  mustache_tests.defineTests();
+  specs.defineTests();
+  issues.defineTests();
+  line_tests.defineTests();
 }

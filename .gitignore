@@ -1,4 +1,7 @@
+.idea/
 bin/
-packages/
+build/
 packages
 *.swp
+*~
+pubspec.lock
